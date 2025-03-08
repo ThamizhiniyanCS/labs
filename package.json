@@ -1,5 +1,5 @@
 {
-  "name": "trial-0",
+  "name": "labs.thamizhiniyancs.me",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -24,7 +24,7 @@
     "lucide-react": "^0.475.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "sharp": "^0.32.5",
+    "sharp": "^0.32.6",
     "starlight-image-zoom": "^0.11.1",
     "tailwind-merge": "^3.0.1",
     "tailwindcss": "^3.4.4",
