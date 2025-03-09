@@ -9,8 +9,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://thamizhiniyancs.github.io",
-  base: "labs",
+  site: "https://labs.thamizhiniyancs.me",
   integrations: [
     starlight({
       title: "Thamizhiniyan C S",

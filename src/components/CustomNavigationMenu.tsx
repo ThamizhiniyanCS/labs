@@ -54,7 +54,7 @@ const components: { title: string; href: string; description: string }[] = [
 
 export default function CustomNavigationMenu() {
   return (
-    <NavigationMenu className="hidden lg:flex">
+    <NavigationMenu className="hidden xl:flex">
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger>Getting started</NavigationMenuTrigger>
@@ -115,6 +115,32 @@ export default function CustomNavigationMenu() {
               )}
             >
               Documentation
+            </a>
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <NavigationMenuLink asChild>
+            <a
+              href="/docs"
+              className={cn(
+                navigationMenuTriggerStyle(),
+                "text-white no-underline"
+              )}
+            >
+              Workshops
+            </a>
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <NavigationMenuLink asChild>
+            <a
+              href="/docs"
+              className={cn(
+                navigationMenuTriggerStyle(),
+                "text-white no-underline"
+              )}
+            >
+              Labs
             </a>
           </NavigationMenuLink>
         </NavigationMenuItem>
