@@ -57,7 +57,7 @@ export const workshops: { title: string; href: string; description: string }[] =
   [
     {
       title: "Malware Analysis - An Introduction",
-      href: "https://labs.thamizhiniyancs.me/malware-analysis-an-introduction/",
+      href: "https://workshops.thamizhiniyancs.me/malware-analysis-an-introduction/",
       description: "A workshop on the fundamentals of malware analysis.",
     },
   ];
