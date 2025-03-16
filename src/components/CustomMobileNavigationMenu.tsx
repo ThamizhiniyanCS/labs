@@ -6,7 +6,6 @@ import {
   SheetTitle,
   SheetTrigger,
   SheetFooter,
-  SheetClose,
 } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
 import { home, writeups, workshops, labs } from "@/lib/navLinks";
@@ -93,6 +92,7 @@ const CustomMobileNavigationMenu = () => {
             </div>
           </div>
         </div>
+
         <SheetFooter className="flex flex-row gap-2 justify-center sm:justify-center pt-4">
           <a href="https://github.com/ThamizhiniyanCS/" target="_blank">
             <svg
