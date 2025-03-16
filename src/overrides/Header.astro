@@ -7,6 +7,7 @@ import SiteTitle from "@astrojs/starlight/components/SiteTitle.astro";
 import SocialIcons from "@astrojs/starlight/components/SocialIcons.astro";
 import ThemeSelect from "@astrojs/starlight/components/ThemeSelect.astro";
 import CustomNavigationMenu from "@/components/CustomNavigationMenu";
+import CustomMobileNavigationMenu from "@/components/CustomMobileNavigationMenu";
 
 /**
  * Render the `Search` component if Pagefind is enabled or the default search component has been overridden.
@@ -23,6 +24,7 @@ const shouldRenderSearch =
     </div>
     <div class="sl-flex print:hidden justify-start items-start">
       <CustomNavigationMenu client:load />
+      <CustomMobileNavigationMenu client:load />
     </div>
   </div>
 
