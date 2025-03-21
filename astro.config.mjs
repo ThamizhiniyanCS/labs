@@ -37,6 +37,25 @@ export default defineConfig({
       },
       plugins: [starlightImageZoom()],
       lastUpdated: true,
+      head: [
+        // Adding google analytics
+        {
+          tag: "script",
+          attrs: {
+            src: `https://www.googletagmanager.com/gtag/js?id=G-Y9ZQ579ZHL`,
+          },
+        },
+        {
+          tag: "script",
+          content: `
+          window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y9ZQ579ZHL');
+          `,
+        },
+      ],
     }),
     tailwind({ applyBaseStyles: false }),
     react(),
